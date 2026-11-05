@@ -1,0 +1,6 @@
+{
+  "name": "CHOLAS - Royal South Indian Heritage Dining",
+  "description": "An extraordinary, world-class luxury restaurant website celebrating Thanjavur's Chola royal heritage, Brihadeeswarar architecture, and authentic South Indian culinary craftsmanship.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
