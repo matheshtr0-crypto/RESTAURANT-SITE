@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-cinzel: 'Cinzel', serif;
+    --font-playfair: 'Playfair Display', serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+.font-cinzel {
+  font-family: var(--font-cinzel), serif;
+}
+
+.font-editorial {
+  font-family: var(--font-playfair), serif;
+}
+
+.font-body {
+  font-family: var(--font-sans), sans-serif;
+}
+
+/* Custom Gold Gradient & Temple Accents */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #f7df94 0%, #d4af37 50%, #aa8010 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-border {
+  border-image: linear-gradient(to right, rgba(212, 175, 55, 0.6), rgba(212, 175, 55, 0.1)) 1;
+}
+
+.gold-glow {
+  box-shadow: 0 0 35px -5px rgba(212, 175, 55, 0.2);
+}
+
+/* Hide scrollbar for clean luxury aesthetic where needed */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
